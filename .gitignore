@@ -1,0 +1,9 @@
+node_modules/
+
+renovate-fork/
+renovate-fork*.tgz
+renovate/roulette.json
+
+.cache/
+.gitlab/child-pipeline/generated.yml
+bot_image/docker_files/

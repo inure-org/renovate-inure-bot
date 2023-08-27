@@ -10,7 +10,7 @@ const {
     prVueMajor2,
     prLabel,
     prJest,
-    prGitLabUISVG
+    prInureUISVG
 } = require("../lib/npm");
 
 module.exports = createServerConfig([
@@ -33,7 +33,7 @@ module.exports = createServerConfig([
 
         packageRules: [
             updateNothing,
-            prGitLabUISVG,
+            prInureUISVG,
             prVueMajor2,
             prBabel,
             prJest
